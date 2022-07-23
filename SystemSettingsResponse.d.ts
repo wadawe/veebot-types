@@ -10,5 +10,5 @@
 import { FormattedSystemSettings } from "./FormattedSystemSettings";
 
 export interface SystemSettingsResponse {
-    settings : FormattedSystemSettings;
+    settings ?: FormattedSystemSettings;
 }
