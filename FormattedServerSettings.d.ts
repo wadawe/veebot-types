@@ -7,7 +7,7 @@
  * Copyright (C) 2022 wadawe
  */
 
-import { FormattedSystemChannels } from "./FormattedSystemChannels";
+import { FormattedSystem } from "./FormattedSystem";
 
 export interface FormattedServerSettings {
     premium : boolean;
@@ -15,5 +15,5 @@ export interface FormattedServerSettings {
     userCount : number;
     currSystems : number;
     maxSystems : number;
-    systems : FormattedSystemChannels[]
+    systems : FormattedSystem[]
 }
