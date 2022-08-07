@@ -11,10 +11,12 @@ import { FormattedSystem } from "./FormattedSystem";
 import { FormattedSystemBehaviour } from "./FormattedSystemBehaviour";
 import { FormattedSystemCommands } from "./FormattedSystemCommands";
 import { FormattedSystemDefaults } from "./FormattedSystemDefaults";
+import { FormattedSystemPersistence } from "./FormattedSystemPersistence";
 
 export interface FormattedSystemSettings extends
     FormattedSystem,
     FormattedSystemCommands,
     FormattedSystemDefaults,
-    FormattedSystemBehaviour
+    FormattedSystemBehaviour,
+    FormattedSystemPersistence
 {}
