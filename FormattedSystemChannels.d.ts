@@ -8,7 +8,6 @@
  */
 
 export interface FormattedSystemChannels {
-    systemNumber : number,
     systemName : string,
     createChannel : string;
     parentCategory : string;
