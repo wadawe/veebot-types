@@ -8,11 +8,13 @@
  */
 
 import { FormattedSystem } from "./FormattedSystem";
+import { FormattedSystemBehaviour } from "./FormattedSystemBehaviour";
 import { FormattedSystemCommands } from "./FormattedSystemCommands";
 import { FormattedSystemDefaults } from "./FormattedSystemDefaults";
 
 export interface FormattedSystemSettings extends
     FormattedSystem,
     FormattedSystemCommands,
-    FormattedSystemDefaults
+    FormattedSystemDefaults,
+    FormattedSystemBehaviour
 {}
