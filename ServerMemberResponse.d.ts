@@ -7,7 +7,8 @@
  * Copyright (C) 2022 wadawe
  */
 
-import { GuildChannelTypes, PermissionString } from "discord.js";
+import { PermissionString } from "discord.js";
+import { ServerChannelResponse } from "./ServerChannelResponse";
 
 export interface ServerMemberResponse {
     server ?: {
@@ -16,12 +17,7 @@ export interface ServerMemberResponse {
         icon : string;
         ownerId : string;
         channels : {
-            [ key : string ] : {
-                id : string;
-                name : string;
-                type : GuildChannelTypes;
-                manageable : boolean;
-            }
+            [ key : string ] : ServerChannelResponse;
         }
         roles : {
             [ key : string ] : {
