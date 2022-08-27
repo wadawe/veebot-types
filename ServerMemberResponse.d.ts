@@ -9,6 +9,7 @@
 
 import { PermissionString } from "discord.js";
 import { ServerChannelResponse } from "./ServerChannelResponse";
+import { ServerRoleResponse } from "./ServerRoleResponse";
 
 export interface ServerMemberResponse {
     server ?: {
@@ -20,13 +21,7 @@ export interface ServerMemberResponse {
             [ key : string ] : ServerChannelResponse;
         }
         roles : {
-            [ key : string ] : {
-                id : string;
-                name : string;
-                color : string;
-                bot : boolean;
-                manageable : boolean;
-            }
+            [ key : string ] : ServerRoleResponse;
         }
     };
     member ?: {
