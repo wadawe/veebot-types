@@ -9,4 +9,5 @@
 
 export interface FormattedSystemPermissions {
     publicRoleId : string | null;
+    inheritParentPermissions : boolean | null;
 }
