@@ -7,8 +7,8 @@
  * Copyright (C) 2022 wadawe
  */
 
-import { FormattedSystemChannels } from "./FormattedSystemChannels";
+import { FormattedSystemBasics } from "./FormattedSystemBasics";
 
-export interface FormattedSystem extends FormattedSystemChannels {
+export interface FormattedSystem extends FormattedSystemBasics {
     systemNumber : number
 }

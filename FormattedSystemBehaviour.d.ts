@@ -12,4 +12,5 @@ export interface FormattedSystemBehaviour {
     deleteChannelWhenOwnerDC : boolean | null;
     moveUserOnCreate : boolean | null;
     disconnectUserOnDeny : boolean | null;
+    inheritParentPermissions : boolean | null;
 }
