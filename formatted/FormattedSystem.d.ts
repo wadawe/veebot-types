@@ -13,6 +13,7 @@ import { FormattedSystemCommands } from "./FormattedSystemCommands";
 import { FormattedSystemDefaults } from "./FormattedSystemDefaults";
 import { FormattedSystemPermissions } from "./FormattedSystemPermissions";
 import { FormattedSystemPersistence } from "./FormattedSystemPersistence";
+import { FormattedSystemRoles } from "./FormattedSystemRoles";
 
 export interface FormattedSystem extends FormattedSystemBasics,
     FormattedSystemCommands,
@@ -23,5 +24,7 @@ export interface FormattedSystem extends FormattedSystemBasics,
 {
 
     systemNumber : number;
+
+    rolePerms : FormattedSystemRoles;
 
 }
