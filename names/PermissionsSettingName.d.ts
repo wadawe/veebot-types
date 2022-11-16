@@ -7,4 +7,4 @@
  * Copyright (C) 2022 wadawe
  */
 
-export type PermissionsSettingName = "ownerTrue" | "ownerFalse" | "lockedTrue" | "lockedFalse" | "unlockedTrue" | "unlockedFalse" | "grantedTrue" | "grantedFalse" | "deniedTrue" | "deniedFalse";
+export type PermissionsSettingName = "ownerTrue" | "ownerFalse" | "lockedTrue" | "lockedFalse" | "unlockedTrue" | "unlockedFalse" | "grantedTrue" | "grantedFalse" | "deniedTrue" | "deniedFalse" | "roleTrue" | "roleFalse";
