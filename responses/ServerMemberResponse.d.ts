@@ -20,11 +20,11 @@ export type ServerMemberResponse = {
     userCount : number;
 
     channels : {
-        [ key : string ] : FormattedServerChannel;
+        [ key in string ] ?: FormattedServerChannel;
     }
 
     roles : {
-        [ key : string ] : FormattedServerRole;
+        [ key in string ] ?: FormattedServerRole;
     }
 
     member : {
