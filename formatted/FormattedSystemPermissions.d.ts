@@ -7,14 +7,14 @@
  * Copyright (C) 2022 wadawe
  */
 
-import { PermissionsMap } from "../permissions/PermissionsMap";
+import { FormattedPermissionsMap } from "./FormattedPermissionsMap";
 
 export type FormattedSystemPermissions = {
 
-    lockedPerms : PermissionsMap;
-    unlockedPerms : PermissionsMap;
-    ownerPerms : PermissionsMap;
-    grantedPerms : PermissionsMap;
-    deniedPerms : PermissionsMap;
+    lockedPerms : FormattedPermissionsMap;
+    unlockedPerms : FormattedPermissionsMap;
+    ownerPerms : FormattedPermissionsMap;
+    grantedPerms : FormattedPermissionsMap;
+    deniedPerms : FormattedPermissionsMap;
 
 };

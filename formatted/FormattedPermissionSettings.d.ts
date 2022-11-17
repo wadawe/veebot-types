@@ -2,14 +2,14 @@
  * Typing File
  * For storing relevant TypeScript types
  *
- * /types/permissions/PermissionsSettingValues.d.ts
+ * /types/formatted/FormattedPermissionSettings.d.ts
  *
  * Copyright (C) 2022 wadawe
  */
 
 import { PermissionsSettingName } from "../names/PermissionsSettingName";
 
-export type PermissionsSettingValues = {
+export type FormattedPermissionSettings = {
 
     [ key in PermissionsSettingName ] ?: bigint;
 

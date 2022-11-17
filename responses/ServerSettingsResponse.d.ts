@@ -7,22 +7,7 @@
  * Copyright (C) 2022 wadawe
  */
 
-import { FormattedSystem } from "../formatted/FormattedSystem";
+import { ServerMemberResponse } from "./ServerMemberResponse";
+import { FormattedServerSettings } from "../formatted/FormattedServerSettings";
 
-export interface ServerSettingsResponse {
-
-    premium : boolean;
-    premiumExpires : string;
-
-    systemCount : number;
-    maxSystems : number;
-
-    settings : {
-
-        systems : {
-            [ key : string ] : FormattedSystem;
-        }
-
-    }
-
-}
+export interface ServerSettingsResponse extends ServerMemberResponse, FormattedServerSettings {}

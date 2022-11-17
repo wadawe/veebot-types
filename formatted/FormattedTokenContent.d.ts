@@ -2,14 +2,14 @@
  * Typing File
  * For storing relevant TypeScript types
  *
- * /types/login/TokenContent.d.ts
+ * /types/formatted/FormattedTokenContent.d.ts
  *
  * Copyright (C) 2022 wadawe
  */
 
 import { DiscordUserResponse } from "../discord/DiscordUserResponse";
 
-export interface TokenContent extends DiscordUserResponse {
+export interface FormattedTokenContent extends DiscordUserResponse {
 
     discordToken : string;
 

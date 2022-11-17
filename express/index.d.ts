@@ -7,7 +7,7 @@
  * Copyright (C) 2022 wadawe
  */
 
-import { TokenContent } from "../login/TokenContent";
+import { FormattedTokenContent } from "../formatted/FormattedTokenContent";
 import { ServerMemberResponse } from "../responses/ServerMemberResponse";
 import { UserServersResponse } from "../responses/UserServersResponse";
 
@@ -17,7 +17,7 @@ declare global {
 
         interface Request {
 
-            tokenContent ?: TokenContent;
+            tokenContent ?: FormattedTokenContent;
             userServers ?: UserServersResponse;
             serverMember ?: ServerMemberResponse;
 

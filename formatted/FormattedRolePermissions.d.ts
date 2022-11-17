@@ -7,11 +7,11 @@
  * Copyright (C) 2022 wadawe
  */
 
-import { PermissionsMap } from "../permissions/PermissionsMap";
+import { FormattedPermissionsMap } from "./FormattedPermissionsMap";
 
 export type FormattedRolePermissions = {
 
     id : string;
-    value : PermissionsMap;
+    value : FormattedPermissionsMap;
 
 };
