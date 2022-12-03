@@ -8,6 +8,7 @@
  */
 
 import { PermissionString } from "discord.js";
+
 import { FormattedServerChannel } from "../formatted/FormattedServerChannel";
 import { FormattedServerRole } from "../formatted/FormattedServerRole";
 

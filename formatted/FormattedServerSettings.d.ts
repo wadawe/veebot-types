@@ -20,7 +20,7 @@ export interface FormattedServerSettings {
     settings : {
 
         systems : {
-            [ key : string ] : FormattedSystem;
+            [ key : string ] : FormattedSystem | undefined;
         }
 
     }
