@@ -7,4 +7,6 @@
  * Copyright (C) 2022 wadawe
  */
 
-export type PermissionsGroupName = "lockedPerms" | "unlockedPerms" | "ownerPerms" | "grantedPerms" | "deniedPerms";
+import { PermissionTypeName } from "./PermissionTypeName";
+
+export type PermissionsGroupName = `${ PermissionTypeName }Perms`;
